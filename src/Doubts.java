@@ -17,7 +17,6 @@ public class Doubts {
 
 
                     System.out.println("Prime number");
-                    break;
 
 
             }
