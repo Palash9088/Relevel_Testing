@@ -12,8 +12,8 @@ public class Tax_Question {
         System.out.println("Enter Income");
         double income = scan.nextDouble();
 
-        double tax;
-        if (age>60)
+        double tax = 0 ;
+        if (age>=60)
         {
             tax = 0;
             System.out.println("Wrong Category");
@@ -32,11 +32,11 @@ public class Tax_Question {
         }
             else if (income > 500000 && income <= 1000000)
             {
-                tax = (income - 500000) * (.2) + (34000);
+                tax = (income - 500000) * .2 + 34000;
             }
-            else if (income > 1000000);
+            else if (income > 1000000)
             {
-                tax = (income - 1000000) * (.3) + (94000);
+                tax = ((income - 1000000) * (.3)) + 94000;
             }
         }
         System.out.println("Name" + name );

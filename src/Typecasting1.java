@@ -1,4 +1,4 @@
-public class Testing1 {
+public class Typecasting1 {
     public static void main(String[] args) {
         double num = 53.7d;
         System.out.println("Before type Casting : " + num);
