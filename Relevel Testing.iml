@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Assignment" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Decision_Making" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Iterative_Statements" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practice" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
