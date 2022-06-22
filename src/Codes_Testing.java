@@ -9,7 +9,7 @@ public class Codes_Testing {
         {
             for(int j=1; j<=i; j++) //cols
             {
-                System.out.print("*");
+                System.out.print(j);
             }
             System.out.println(); //blank line, so that we can enter into next row
         }
