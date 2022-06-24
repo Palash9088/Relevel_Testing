@@ -9,7 +9,7 @@ public class Function_1 {
     }
 
     public void print(int output)
-            // this is print functions
+            // this is print function
     {
         System.out.println("Sum is :" + output);
     }

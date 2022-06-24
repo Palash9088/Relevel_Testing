@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Assignment_3 {
     public static void main(String[] args) {
-                /* " 1. Program to take 10 integers as input from keyboard
+                /* 1. Program to take 10 integers as input from keyboard
             using loop and print the average of those numbers*/
 
         Scanner scan = new Scanner(System.in);
@@ -15,11 +15,11 @@ public class Assignment_3 {
 
         int sum = 0;
         int index;
-        float average = 0f;
+        float average;
         for ( index = num1; index <= num2; index++) {
 
             // sum
-            sum = sum + index;
+            sum += index;
         }
         System.out.println("Sum of all the digits is " + sum);
 
