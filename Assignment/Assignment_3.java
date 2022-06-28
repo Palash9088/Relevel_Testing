@@ -16,16 +16,18 @@ public class Assignment_3 {
         int sum = 0;
         int index;
         float average;
-        for ( index = num1; index <= num2; index++) {
-
+        int count = 0;
+        for ( index = num1; index <= num2; index++)
+        {
             // sum
             sum += index;
+            count++;
         }
         System.out.println("Sum of all the digits is " + sum);
+        System.out.println("Sum of all the digits is " + count);
 
         // Average of sum of number
-        average = sum / index;
-        System.out.println( "No. of integers is " + index);
+        average = sum/count;
         {
             System.out.println("Average of sum of numbers is : " +  average);
         }

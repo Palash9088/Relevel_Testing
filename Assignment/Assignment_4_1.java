@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Assignment_4_1 {
     public static void main(String[] args) {
+
+        // Arm strong number
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
         int num = sc.nextInt();
