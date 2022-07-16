@@ -1,26 +1,22 @@
-import java.util.*;
 public class Doubts {
+
+    int sum;
+    char a;
+    String ab;
+    public long method(int num1, int num2)
+    {
+        System.out.println(sum);
+        System.out.println(a);
+        System.out.println(ab);
+        int sum1;
+        sum1 = num1 + num2;
+        System.out.println(sum1);
+        return sum1;
+    }
     public static void main(String[] args) {
-        // Check for the prime number
+        Doubts obj = new Doubts();
+        int sum2 = (int) obj.method(5,5);
+        System.out.println(sum2);
 
-        System.out.println("Enter a Number");
-        Scanner scan = new Scanner(System.in);
-        int num = scan.nextInt();
-
-        for (int i = 2; i < num; i++) ;
-        {
-
-                if (num % 2 == 0) {
-                    System.out.println("This is not a prime number");
-                }
-                else {
-
-
-                    System.out.println("Prime number");
-
-
-            }
-
-        }
     }
 }

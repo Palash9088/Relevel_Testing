@@ -1,21 +1,29 @@
-import java.util.*;
 public class p {
-    public static void main(String[] args){
-        Scanner console = new Scanner(System.in);
+    public static void main(String[] args) {
 
-        int number;
+        String str = "abaacca";
 
-        System.out.print("Enter the positive integer ");
-        number = console.nextInt();
+        int sI = 3;
+        int eI = 6;
 
-        for(int i = 2; i < number; i++)
-        {
-            if(number % i == 0);
+        String result1 = "";
+        String result2 = "";
+
+        for (int i = 3; i <= eI; i++) {
+            result1 = result1 + str.charAt(i);
         }
-        if( number > 1)
-            System.out.println("Number is prime");
-        else
-            System.out.println("Number is not prime");
+        System.out.println(result1);
 
+        for (int i = eI; i >= 3; i--) {
+            result2 = result2 + str.charAt(i);
+        }
+        System.out.println(result2);
+
+        if (result1.equals(result2)) {
+            System.out.println("Palindrome");
+        } else {
+            System.out.println("Not palindrome");
+        }
     }
 }
+

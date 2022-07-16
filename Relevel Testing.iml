@@ -9,6 +9,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Iterative_Statements" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Practice" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Collections" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Functions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Oops" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ArrayUser_Input {
     public static void main(String[] args) {
         // create array of size 5
-        int[] nums = new int[5];
+        int[]   nums = new int[5];
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter values of the array ");

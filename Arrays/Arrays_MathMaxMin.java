@@ -1,4 +1,4 @@
-public class Arrays_Max {
+public class Arrays_MathMaxMin {
     public static void main(String[] args) {
         int max = Integer.MIN_VALUE;
         int min = Integer.MAX_VALUE;
@@ -8,19 +8,12 @@ public class Arrays_Max {
         for (int i = 0; i < nums.length; i++)
         {
             // if max is less than nums then it will update value of max
-            if (max < nums[i])
+            max = Math.max(max, nums[i]);
 
-            {
-                max = nums[i];
-            }
             // if min is less than nums then it will update value of min
-            if (min > nums[i])
-            {
-                min = nums[i];
-            }
+            min = Math.min(min, nums[i]);
         }
-        System.out.println("Maximum value is " + max);
-        System.out.println("Minimum value is " + min);
+        System.out.println(max);
+
     }
 }
-

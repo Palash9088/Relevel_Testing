@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Arrays_DuplicateCheck {
-    public boolean CheckForDuplicate (int[]arr)
+    public static boolean CheckForDuplicate (int[]arr)
     {
         int [] indexarray = new int [10];
         Arrays.fill(indexarray, 0);
