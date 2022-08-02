@@ -13,6 +13,16 @@
       <sourceFolder url="file://$MODULE_DIR$/Functions" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Strings" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Oops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interface" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Practice2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Abstract" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaticAndFinal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaticNonStatic" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Com" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Constructors" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MaulikAssignment" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ThisKeyword" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

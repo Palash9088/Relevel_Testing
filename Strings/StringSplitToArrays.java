@@ -33,11 +33,13 @@ public class StringSplitToArrays {
 
         // 2. if we have taken space between double " "  then it will break into word by word from whitespace
 
-        String str2 = new String ("Hello world this is string split program");
+        String str2 = new String ("Hello world this is string split     program,Hello world this is string split program");
 
         String [] stringArrays2 = str2.split(" ");
 
         System.out.println(Arrays.toString(stringArrays2));
+        String [] stringArraysWithRegex = str2.split("\\s+");
+        System.out.println(Arrays.toString(stringArraysWithRegex));
 
         System.out.println("------------------------------------------------------------------------------------------");
 

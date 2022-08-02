@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Profit_Loss {
     public static void main(String[] args) {
-                /*Program to input the cost price and the selling price of an object.
+                /*OverridingEx.Program to input the cost price and the selling price of an object.
         If the selling price is more than the cost price then calculate and display actual profit and profit per cent otherwise,
         calculate and display actual loss and loss per cent. If the cost price and the selling price are equal,
         the program displays the message 'Neither profit nor loss

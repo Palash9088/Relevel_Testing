@@ -23,13 +23,13 @@ public class Program1 {
     }
     public static void main(String[] args) {
 
-        Program1 obj = new Program1();
+       /* ProgramTest obj = new ProgramTest();*/
 
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter sales");
         int sc = scan.nextInt();
-        obj.salesCom(sc);
+
 
     }
 }

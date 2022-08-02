@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Arrays_UserInputSum {
+public class    Arrays_UserInputSum {
     public static void main(String[] args) {
         // sum & average of 5 values in an array
 
