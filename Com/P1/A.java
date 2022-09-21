@@ -1,6 +1,5 @@
 package P1;//import java.util.*;
 
-import P2.B;
 public class A {
 
     public void m1()
@@ -21,7 +20,6 @@ public class A {
 
         P3.B b = new P3.B(); // qualified path for package 3 b2 method
         b2.m1();
-
 
 
 

@@ -1,3 +1,5 @@
+package HashConcepts;
+
 import java.util.Hashtable;
 
 public class NonRepeatingElements {

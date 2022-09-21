@@ -1,13 +1,17 @@
-import java.util.Hashtable;
+package HashConcepts;
+
+import java.util.HashMap;
 public class Hashtable_Example {
     public static void main(String[] args) {
 
         // Creating hashtable
-        Hashtable <String,Integer> hm = new Hashtable<String, Integer>();
+        HashMap<Integer,String> hm = new HashMap<>();
 
         // to add value into Hashtable
-        hm.put("Red", 1);
-        hm.put("Yellow", 2);
+        System.out.println(hm.put(1,"Yellow"));
+        System.out.println(hm.put(1,"Red"));
+        System.out.println(hm);
+       /* hm.put("Yellow", 2);
         hm.put("Green", 3);
         hm.put("White", 4);
         hm.put("Black", 5);
@@ -55,6 +59,6 @@ public class Hashtable_Example {
         // to check if contains or not
 
         boolean isany  = hm.containsKey("Purple");
-        System.out.println(isany);
+        System.out.println(isany);*/
     }
 }

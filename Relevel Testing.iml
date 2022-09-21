@@ -23,8 +23,23 @@
       <sourceFolder url="file://$MODULE_DIR$/MaulikAssignment" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Recursion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ThisKeyword" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExceptionHandling" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lambda" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/InputOutput" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Regex" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Testing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Enum" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/opera-mini-8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

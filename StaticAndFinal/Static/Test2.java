@@ -6,7 +6,7 @@ public class Test2 extends Test1 {
     public Test2()
     {
         super(10);
-        System.out.println(" Test 2 Constructor call");
+        System.out.println(" TestFile 2 Constructor call");
     }
 
 

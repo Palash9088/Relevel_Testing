@@ -7,12 +7,12 @@ public class Test1 {
     {
         int y = 20;
         x = 30;
-        System.out.println("Test 1 Constructor call");
+        System.out.println("TestFile 1 Constructor call");
         System.out.println(x);
     }
     public Test1(int a)
     {
-        System.out.println("Test 1 parameterized Constructor call");
+        System.out.println("TestFile 1 parameterized Constructor call");
 
     }
 
